@@ -1391,3 +1391,36 @@ TEAM CARDS
 	color: #fff;
 }
 
+/* =========================
+OUR RECRUITER
+============================ */
+.slider img {
+  width: 200px;
+  height: 80px;
+  animation: scroll 40s linear infinite;
+}
+.slider h2{
+  color: var(--primary-color);
+  margin: 10px;
+  padding: 10px 10px 45px 10px;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 4em;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.slider {
+  margin-top: -100px;
+  background-color: rgb(255, 255, 255);
+  padding: 8em 2em;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
+
