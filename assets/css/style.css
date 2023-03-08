@@ -398,15 +398,15 @@ General Section
   grid-template-columns: 1fr;
   gap: 3rem;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 90%;
   margin: auto;
 }
 
 @media (min-width: 650px) {
   .features-group {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
     align-items: center;
   }
 }
@@ -1211,91 +1211,61 @@ a {
 /*---------------------------------------
 Notice Board            
 -----------------------------------------*/
-
-.Marquee {
-  background: #7656c7;
-  width: 85vw;
-  box-sizing: border-box;
-  padding: 1em;
+ .notice-section {
+  background: url(../images/notice-board.jpg) no-repeat #674cae;
+  height: 106px;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #fff;
-  font-weight: 400;
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+
+.notice-section a{
+  text-decoration: none;
+  color: white;
+}
+.MidlinksOBox2 {
+  float: left;
+  border-right: 2px solid #ffffff;
+  width: 330px;
+  height: 106px !important;
+  height/**/: /**/110px !important;
+  font-size: 16px;
+  padding: 12px 0px;
+}
+.MidlinksOBox2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  height: 103px;
   overflow: hidden;
 }
-.Marquee-content {
-  display: flex;
-  animation: marquee 15s linear infinite running;
+.NoticeBox2 {
+  float: left;
+  width: 25%;
+  padding: 21px 0px 13px 27px;
+  background: url(../images/notice.png) no-repeat center 5px;
+  /* margin-left: 37px; */
 }
-.Marquee-content:hover {
-  animation-play-state: paused;
+.NoticeBox2 {
+  float: left;
+  width: 25%;
+  padding: 21px 0px 13px 27px;
+  background: url(../images/notice.png) no-repeat center 5px;
+  /* margin-left: 37px; */
 }
-.Marquee-tag {
-  width: 400px;
-  margin: 0 5.5em;
-  padding: 0.5em;
-  background: rgba(255,255,255,0.1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
+.YourSucces2 {
+  float: left;
+  width: 310px;
+  height: 106px;
+  height/**/: /**/82px;
+  padding: 12px 0px 0px 0px;
+  font-size: 16px;
 }
-.Marquee-tag:hover {
-  background: rgba(255,255,255,0.5);
-  transform: scale(1.1);
-  cursor: pointer;
-}
-@-moz-keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translate(-50%);
-  }
-}
-@-webkit-keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translate(-50%);
-  }
-}
-@-o-keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translate(-50%);
-  }
-}
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translate(-50%);
-  }
-}
-
-.Notice-board{
-  background-color: #7656c7;
-}
-
-.Notice-board h3{
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-.News-events{
-  background-color: #7656c7;
-}
-
-.News-events h3{
-  padding: 20px;
-  color: white;
-  text-align: center;
+.clr {
+  clear: both;
 }
 
 /* =========================
