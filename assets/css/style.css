@@ -235,6 +235,9 @@ General Section
   overflow-x: hidden;
 }
 
+.genre-1-row {
+  justify-content: flex-end;
+}
 .genre-1-card {
   padding: 10px;
   margin: 8px;
@@ -264,6 +267,8 @@ General Section
   font-family: sans-serif;
   text-decoration: none;
 }
+
+
 
 /*---------------------------------------
   SCROLL BAR               
