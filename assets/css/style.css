@@ -1428,6 +1428,14 @@ TEAM CARDS
 	color: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+  
+  .row .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
+
 /* =========================
 OUR RECRUITER
 ============================ */
