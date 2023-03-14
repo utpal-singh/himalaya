@@ -1440,8 +1440,8 @@ TEAM CARDS
 OUR RECRUITER
 ============================ */
 .slider img {
-  width: 200px;
-  height: 80px;
+  width: 150px;
+  height: 60px;
   animation: scroll 40s linear infinite;
 }
 .slider h2{
