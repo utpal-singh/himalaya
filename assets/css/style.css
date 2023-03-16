@@ -1222,14 +1222,14 @@ Notice Board
 .NoticeBox2 {
   float: left;
   width: 25%;
-  padding: 21px 0px 13px 27px;
+  padding: 21px 0px 13px 10px;
   background: url(../images/notice.png) no-repeat center 5px;
   /* margin-left: 37px; */
 }
 .NoticeBox2 {
   float: left;
   width: 25%;
-  padding: 21px 0px 13px 27px;
+  padding: 21px 0px 13px 10px;
   background: url(../images/notice.png) no-repeat center 5px;
   /* margin-left: 37px; */
 }
