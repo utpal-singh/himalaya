@@ -1433,6 +1433,13 @@ TEAM CARDS
   .row .col-4 {
     flex: 0 0 auto;
     width: 100%;
+
+    
+}
+.notice-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
 }
 
