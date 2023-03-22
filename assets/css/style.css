@@ -394,6 +394,11 @@ General Section
   font-weight: 500;
 }
 
+.nav-head{
+  text-decoration: none;
+  color: white;
+}
+
 
 /*--------------------------------------
   FEATURES
