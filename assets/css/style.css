@@ -728,9 +728,6 @@ General Section
 
 .button_container-f {
 	position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
 }
 .btn-f {
   border: none;
@@ -747,7 +744,7 @@ General Section
   background-color: #674CAE;
   padding: 17px 60px;
   margin: 0 auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.378);
 }
 
 .btn-f span {
