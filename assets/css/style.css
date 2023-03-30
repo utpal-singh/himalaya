@@ -229,8 +229,6 @@ General Section
   text-decoration: none;
 }
 
-
-
 /*---------------------------------------
   SCROLL BAR               
 -----------------------------------------*/
@@ -302,7 +300,6 @@ General Section
   color: #202020;
   font-weight: 500;
 }
-
 
 /*--------------------------------------
   FEATURES
@@ -534,7 +531,6 @@ General Section
   position: absolute;
   background-color: #933ee342;
 }
-
 
 /*---------------------------------------
   SITE HEADER              
@@ -864,9 +860,7 @@ General Section
 }
 
 @media (min-width: 568px) {
-  /* .footer-content-column {
-      width: 49.99%;
-  } */
+
 }
 
 /*---------------------------------------
