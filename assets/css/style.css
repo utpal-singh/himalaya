@@ -27,6 +27,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family);
@@ -120,6 +121,7 @@ strong {
     right: 0;
     left: auto;
   }
+
   .navbar .nav-item .dropdown-menu {
     display: block;
     opacity: 0;
@@ -127,17 +129,21 @@ strong {
     transition: 0.3s;
     margin-top: 0;
   }
+
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
+
   .navbar .dropdown-menu.fade-down {
     top: 80%;
     transform: rotateX(-75deg);
     transform-origin: 0% 0%;
   }
+
   .navbar .dropdown-menu.fade-up {
     top: 180%;
   }
+
   .navbar .nav-item:hover .dropdown-menu {
     transition: 0.3s;
     opacity: 1;
@@ -234,6 +240,7 @@ General Section
 .genre-1-row {
   justify-content: flex-end;
 }
+
 .genre-1-card {
   padding: 10px;
   margin: 8px;
@@ -369,7 +376,7 @@ General Section
 
 @media (min-width: 650px) and (max-width: 899px) {
   .features-text h2 {
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: var(--primary-color);
   }
 }
@@ -668,6 +675,7 @@ General Section
 .button_container-f {
   position: absolute;
 }
+
 .btn-f {
   border: none;
   display: block;
@@ -713,6 +721,7 @@ General Section
 .button_container-f2 {
   position: absolute;
 }
+
 .btn-f2 {
   border: none;
   display: block;
@@ -758,6 +767,7 @@ General Section
 .button_container-f3 {
   position: absolute;
 }
+
 .btn-f3 {
   border: none;
   display: block;
@@ -802,6 +812,7 @@ General Section
 
 /* Media Query For different screens */
 @media (min-width: 320px) and (max-width: 479px) {
+
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   .footer-content {
     margin-left: auto;
@@ -810,6 +821,7 @@ General Section
     padding: 40px 15px 650px;
     position: relative;
   }
+
   .footer .copyright {
     padding: 20px 0px 10px 1px;
     font-size: 14px;
@@ -819,6 +831,7 @@ General Section
 }
 
 @media (min-width: 480px) and (max-width: 599px) {
+
   /* smartphones, Android phones, landscape iPhone */
   .footer-content {
     margin-left: auto;
@@ -837,6 +850,7 @@ General Section
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
+
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   .footer-content {
     margin-left: auto;
@@ -845,6 +859,7 @@ General Section
     padding: 40px 15px 650px;
     position: relative;
   }
+
   .footer .copyright {
     padding: 20px 0px 10px 1px;
     font-size: 14px;
@@ -883,8 +898,7 @@ General Section
   }
 }
 
-@media (min-width: 568px) {
-}
+@media (min-width: 568px) {}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
@@ -1004,15 +1018,21 @@ Notice Board
   text-decoration: none;
   color: white;
 }
+
 .MidlinksOBox2 {
   float: left;
   border-right: 2px solid #ffffff;
   width: 330px;
   height: 106px !important;
-  height/**/: /**/ 110px !important;
+  height
+  /**/
+  :
+    /**/
+    110px !important;
   font-size: 16px;
   padding: 12px 0px;
 }
+
 .MidlinksOBox2 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -1020,6 +1040,7 @@ Notice Board
   height: 103px;
   overflow: hidden;
 }
+
 .NoticeBox2 {
   float: left;
   width: 25%;
@@ -1027,6 +1048,7 @@ Notice Board
   background: url(../images/notice.png) no-repeat center 5px;
   /* margin-left: 37px; */
 }
+
 .NoticeBox2 {
   float: left;
   width: 25%;
@@ -1034,14 +1056,20 @@ Notice Board
   background: url(../images/notice.png) no-repeat center 5px;
   /* margin-left: 37px; */
 }
+
 .YourSucces2 {
   float: left;
   width: 310px;
   height: 106px;
-  height/**/: /**/ 82px;
+  height
+  /**/
+  :
+    /**/
+    82px;
   padding: 12px 0px 0px 0px;
   font-size: 16px;
 }
+
 .clr {
   clear: both;
 }
@@ -1233,6 +1261,7 @@ TEAM CARDS
     flex: 0 0 auto;
     width: 100%;
   }
+
   .notice-section a {
     text-decoration: none;
     color: white;
@@ -1319,6 +1348,7 @@ CONTACT US PAGE
   transition: 0.5s;
   margin-bottom: 4px;
 }
+
 .container-c .card .box .content h4 {
   font-size: 1.2rem;
   color: #e4d7ff;
@@ -1326,6 +1356,7 @@ CONTACT US PAGE
   transition: 0.5s;
   margin-bottom: 15px;
 }
+
 .container-c .card .box .content h6 {
   font-size: 0.9rem;
   color: #fff;
@@ -1354,13 +1385,15 @@ CONTACT US PAGE
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
+
 .container-c .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
 }
+
 .features-text h2 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: var(--primary-color);
 }
 
@@ -1372,6 +1405,7 @@ OUR RECRUITER
   height: 60px;
   animation: scroll 40s linear infinite;
 }
+
 .slider h2 {
   color: var(--primary-color);
   margin: 10px;
@@ -1396,6 +1430,7 @@ OUR RECRUITER
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translatex(-1000%);
   }
