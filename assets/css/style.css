@@ -875,6 +875,12 @@ General Section
     padding: 40px 15px 650px;
     position: relative;
   }
+  .footer .copyright {
+    padding: 20px 0px 10px 1px;
+    font-size: 14px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+    margin-top: 215px;
+  }
 }
 
 @media (min-width:480px) and (max-width:599px) {
